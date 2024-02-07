@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Cinzel|Fauna+One');
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+SC:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tektur&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" );
+
+
+html, body{
+ scroll-behavior: smooth;
+} 
+
+* { 
+ margin: 0; 
+ padding: 0; 
+ box-sizing: border-box; 
+} 
+  
+header {
+  width: 100%;
+  height: 180px;
+  font-family: Cinzel;
+  background-image: url('https://img.freepik.com/free-vector/hand-painted-watercolor-nature-background_23-2148941599.jpg?w=740&t=st=1689791793~exp=1689792393~hmac=2255eb0b37f26d60d9267081eb3dd0604354f040bd399f5e8c788a9f5b764e83'); 
+  border: 3px solid white;
+  display: flex;
+  justify-content: center; 
+  position: fixed;
+  background-color: white;
+  top: 0px; 
+  right: 2px;
+} 
+
+h1{
+  font-size: 35px; 
+  margin-top: 12px;
+  margin-left: 8px;
+} 
+
+.icon{
+ width: 65px;
+ height: 65px;
+ margin-top: 0;
+ margin-left: -17px;
+}
+
+#nav-bar{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  position: fixed;
+  top:  4rem;
+  left: 0;
+}
+
+nav > ul > li{
+  width: 100%; 
+  text-align: center;
+  list-style: none;
+  position: relative;
+  right: 0;
+} 
+
+li > a{
+  font-size: 25px;
+  text-decoration: none;
+  color: black;
+} 
+
+ body{
+  background: linear-gradient(54.5deg, #5EFCE8 27%, #92FFC0 86%);
+ } 
+  
+
+section {
+  width: 100%;
+  margin-top: 3rem;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  row-gap: 50px;
+  grid-template-rows: 155px;
+  grid-template-areas: 
+      "." "a" "b" "." "d" "e" "f" "g" "h" "i" "." ;
+  align-items: center;
+  justify-items: center; 
+  justify-content: center;    
+}
+ 
+ 
+.first-heading{
+  font-family: 'Playfair Display', serif;
+  background: -webkit-linear-gradient(47.7deg,  #960ead 12%,#0ad8c7 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  grid-area: a;
+  font-size: 30px; 
+  letter-spacing: 3px;
+  border-bottom: 3px solid #002661;
+  padding-left: 0;
+} 
+ 
+form{ 
+  display: grid;
+  grid-area: b;
+  align-self: center; 
+  justify-self: center;
+  row-gap: 1.5rem;
+  margin-top: -1.4rem;
+} 
+
+#email{
+ width: 300px;
+ height: 30px;  
+ font-family: 'Tektur', cursive;
+ font-size: 15px;
+} 
+
+input[type="submit" ] {
+  width: 40%;
+  font-family: 'Tektur', cursive;
+  line-height: 2;
+  border-radius: 25px;
+  color: white;
+  transition: all 500ms ease-in-out;
+  font-size: 14px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  background: linear-gradient(45deg, #D38312 10%, #A83279 90%);
+  margin-left: 5.9rem;
+} 
+
+
+.sub{
+  font-family: 'IBM Plex Mono', monospace;
+  grid-area: d;
+} 
+
+.p-1{
+  font-family: 'Ysabeau SC', sans-serif;
+  grid-area: e;
+  align-self: center; 
+  justify-self: center; 
+  text-align: center;
+  margin: -20px 1rem 2rem 1rem;
+} 
+
+.sub-2{
+  font-family: 'IBM Plex Mono', monospace;
+  grid-area: f;
+} 
+
+.p-2{
+  font-family: 'Ysabeau SC', sans-serif;
+  grid-area: g;
+  align-self: center; 
+  justify-self: center; 
+  text-align: center;
+  margin: -20px 1rem 2rem 1rem;
+} 
+
+.sub-3{
+  font-family: 'IBM Plex Mono', monospace;
+  grid-area: h;
+  align-self: center; 
+  justify-self: center; 
+} 
+
+.p-3{
+  font-family: 'Ysabeau SC', sans-serif;
+  grid-area: i;
+  align-self: center; 
+  justify-self: center; 
+  text-align: center;
+  margin: -20px 1rem  14rem 1rem;
+} 
+
+iframe{
+  aspect-ratio: 16/9;
+  width: 100%;
+} 
+
+#pricing{
+  aspect-ratio: 1/1;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: 50px; 
+  row-gap: 50px;
+  grid-template-areas:
+         "a"
+         "b"
+         "c"
+         ".";
+  align-items: end;
+  align-content: center;
+  justify-items: center;
+  justify-content: center;
+} 
+
+.first{
+  background-color: white;
+  width: 300px;
+  height: 245px;
+  grid-area: a;
+  border: 3px solid #3b3b4f;
+} 
+
+.second{
+  background-color: white;
+  width: 300px;
+  height: 513px;
+  border: 3px solid #3b3b4f;
+  grid-area: b;
+} 
+
+.third{
+  background-color: white;
+  width: 300px;
+  height: 262px;
+  border: 3px solid #3b3b4f;
+  grid-area: c;
+} 
+
+h3{
+  text-align: center;
+  width: 100%;
+  line-height: 1.8;
+  color: white;
+  font-family: 'IBM Plex Mono', monospace;
+  background-color: gray;
+  padding-left: 0;
+  margin-top: 0;
+} 
+
+.image{
+  width: 100%; 
+  margin-top: 3.5rem;
+} 
+
+.p1{
+ font-family: 'Tektur', cursive;
+  margin-left: 7.7rem;
+  margin-top: 3rem;
+} 
+
+#subm{
+  font-family: 'Tektur', cursive;
+  width: 30%;
+  line-height: 2;
+  transition: all 500ms ease-in-out;
+  font-size: 14px;
+  margin-top: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  background: linear-gradient(45deg, gray 10%, white 90%);
+  margin-left: 6.5rem;
+  color: black;
+} 
+
+.last{
+  width: 100%;
+  display: grid;
+  line-height: 2;
+  grid-template-columns: repeat(3, 0.2fr);
+  grid-template-rows: auto;
+  row-gap: 50px;
+  grid-template-areas:
+    "a b c" ;
+  align-items: end;
+  justify-items: end; 
+  justify-content: end;    
+} 
+
+.a{
+  grid-area: a;
+}  
+
+.b{
+  grid-area: b;  
+}  
+
+.c{
+  grid-area: c;
+}  
+
+.d{ 
+    line-height: 2;
+  margin-bottom: 1rem;
+  width: 100%;
+  text-align: right;
+} 
+
+
+footer{
+  width: 100%;
+  background-color: white;
+  padding: 3px 15px;
+ } 
